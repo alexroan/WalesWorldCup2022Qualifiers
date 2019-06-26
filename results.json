@@ -1,66 +1,82 @@
 [	
 	{
 		"Home":{
-			"Name":"Croatia"
+			"Name":"Croatia",
+			"Score":2
 		},
 		"Away":{
-			"Name":"Azerbaijan"
+			"Name":"Azerbaijan",
+			"Score":1
 		}
 	},
 	{
 		"Home":{
-			"Name":"Slovakia"
+			"Name":"Slovakia",
+			"Score":2
 		},
 		"Away":{
-			"Name":"Hungary"
+			"Name":"Hungary",
+			"Score":0
 		}
 	},
 	{
 		"Home":{
-			"Name":"Wales"
+			"Name":"Wales",
+			"Score":1
 		},
 		"Away":{
-			"Name":"Slovakia"
+			"Name":"Slovakia",
+			"Score":0
 		}
 	},
 	{
 		"Home":{
-			"Name":"Hungary"
+			"Name":"Hungary",
+			"Score":2
 		},
 		"Away":{
-			"Name":"Croatia"
+			"Name":"Croatia",
+			"Score":1
 		}
 	},
 	{
 		"Home":{
-			"Name":"Croatia"
+			"Name":"Croatia",
+			"Score":2
 		},
 		"Away":{
-			"Name":"Wales"
+			"Name":"Wales",
+			"Score":1
 		}
 	},
 	{
 		"Home":{
-			"Name":"Azerbaijan"
+			"Name":"Azerbaijan",
+			"Score":1
 		},
 		"Away":{
-			"Name":"Hungary"
+			"Name":"Hungary",
+			"Score":3
 		}
 	},
 	{
 		"Home":{
-			"Name":"Azerbaijan"
+			"Name":"Azerbaijan",
+			"Score":1
 		},
 		"Away":{
-			"Name":"Slovakia"
+			"Name":"Slovakia",
+			"Score":5
 		}
 	},
 	{
 		"Home":{
-			"Name":"Hungary"
+			"Name":"Hungary",
+			"Score":1
 		},
 		"Away":{
-			"Name":"Wales"
+			"Name":"Wales",
+			"Score":0
 		}
 	},
 	{
