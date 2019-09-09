@@ -81,34 +81,42 @@
 	},
 	{
 		"Home":{
-			"Name":"Slovakia"
+			"Name":"Slovakia",
+			"Score":0
 		},
 		"Away":{
-			"Name":"Croatia"
+			"Name":"Croatia",
+			"Score":4
 		}
 	},
 	{
 		"Home":{
-			"Name":"Wales"
+			"Name":"Wales",
+			"Score":2
 		},
 		"Away":{
-			"Name":"Azerbaijan"
+			"Name":"Azerbaijan",
+			"Score":1
 		}
 	},
 	{
 		"Home":{
-			"Name":"Azerbaijan"
+			"Name":"Azerbaijan",
+			"Score":1
 		},
 		"Away":{
-			"Name":"Croatia"
+			"Name":"Croatia",
+			"Score":1
 		}
 	},
 	{
 		"Home":{
-			"Name":"Hungary"
+			"Name":"Hungary",
+			"Score":1
 		},
 		"Away":{
-			"Name":"Slovakia"
+			"Name":"Slovakia",
+			"Score":2
 		}
 	},
 	{
