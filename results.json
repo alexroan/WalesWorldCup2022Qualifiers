@@ -121,18 +121,22 @@
 	},
 	{
 		"Home":{
-			"Name":"Croatia"
+			"Name":"Croatia",
+                        "Score":"3"
 		},
 		"Away":{
-			"Name":"Hungary"
+			"Name":"Hungary",
+                        "Score":"0"
 		}
 	},
 	{
 		"Home":{
-			"Name":"Slovakia"
+			"Name":"Slovakia",
+                        "Score":"1"
 		},
 		"Away":{
-			"Name":"Wales"
+			"Name":"Wales",
+                        "Score":"1"
 		}
 	},
 	{
