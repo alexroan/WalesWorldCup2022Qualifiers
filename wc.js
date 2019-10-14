@@ -146,6 +146,56 @@ function PrintFixture(home, away){
 	$form.append(content);
 }
 
+function addHeadToHeadWin(tableArray, teamName){
+	for (let i = 0; i < tableArray.length; i++) {
+		const team = tableArray[i];
+		if (team.name == teamName) {
+			tableArray[i].hd2hd++;
+			break;
+		}
+	}
+	return tableArray;
+}
+
+function appendHeadToHead(tableArray){
+	let pointsDictionary = {};
+	//split table into key -> value mapping where key is points
+	for (let i = 0; i < tableArray.length; i++) {
+		const team = tableArray[i];
+		if (!(team.pts in pointsDictionary)) {
+			pointsDictionary[team.pts] = [team];
+		}
+		else{
+			pointsDictionary[team.pts].push(team);
+		}
+	}
+
+	//apply hd2hd points based on head to head matches
+	for(var pts in pointsDictionary) {
+		if(pointsDictionary[pts].length == 2){
+			//find results between the two, determine main winner
+			let team1 = pointsDictionary[pts][0].name;
+			let team2 = pointsDictionary[pts][1].name;
+			results.forEach(result => {
+				if ((result.Home.Name == team1 && result.Away.Name == team2)
+					|| result.Away.Name == team1 && result.Home.Name == team2){
+					
+					if (result.Home.Score > result.Away.Score) {
+						//home win
+						tableArray = addHeadToHeadWin(tableArray, result.Home.Name);
+					}
+					else if (result.Away.Score > result.Home.Score) {
+						//away win
+						tableArray = addHeadToHeadWin(tableArray, result.Away.Name);
+					}
+				}
+			});
+		}
+	}
+	console.log(tableArray);
+	return tableArray;
+}
+
 function PrintTable(pointsTable){
 	$("#table-rows").empty();
 	var tableArray = [];
@@ -161,13 +211,18 @@ function PrintTable(pointsTable){
 			gf: row.GF,
 			ga: row.GA,
 			gd: row.GD,
-			pts: row.Pts
+			pts: row.Pts,
+			hd2hd: 0
 		};
 		tableArray[tableArray.length] = arrayObj;
 	}
 
+	if(results.length === 24) {
+		tableArray = appendHeadToHead(tableArray);
+	}
+
 	tableArray.sort(function(a,b){
-		return b.pts - a.pts || b.gd - a.gd || b.gf - a.gf;
+		return b.pts - a.pts || b.hd2hd - a.hd2hd || b.gd - a.gd || b.gf - a.gf;
 	});
 
 	for (var i = 0; i < tableArray.length; i++) {
