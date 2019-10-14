@@ -122,37 +122,41 @@
 	{
 		"Home":{
 			"Name":"Croatia",
-                        "Score":3
+			"Score":3
 		},
 		"Away":{
 			"Name":"Hungary",
-                        "Score":0
+			"Score":0
 		}
 	},
 	{
 		"Home":{
 			"Name":"Slovakia",
-                        "Score":1
+			"Score":1
 		},
 		"Away":{
 			"Name":"Wales",
-                        "Score":1
+			"Score":1
 		}
 	},
 	{
 		"Home":{
-			"Name":"Hungary"
+			"Name":"Hungary",
+			"Score":1
 		},
 		"Away":{
-			"Name":"Azerbaijan"
+			"Name":"Azerbaijan",
+			"Score":0
 		}
 	},
 	{
 		"Home":{
-			"Name":"Wales"
+			"Name":"Wales",
+			"Score":1
 		},
 		"Away":{
-			"Name":"Croatia"
+			"Name":"Croatia",
+			"Score":1
 		}
 	},
 	{
