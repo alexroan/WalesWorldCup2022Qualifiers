@@ -1,5 +1,5 @@
 # README
 
-## Predict who will qualify for the World Cup 2018 from Euro group D
+## Predict who will qualify for the World Cup 2022 from Euro group E
 
-# [Live Site](https://alexroan.github.io/WalesEuro2020Qualifiers/)
+# [Live Site](https://alexroan.github.io/WalesWorldCup2022Qualifiers/)

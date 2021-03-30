@@ -1,194 +1,174 @@
-[	
-	{
-		"Home":{
-			"Name":"Croatia",
-			"Score":2
-		},
-		"Away":{
-			"Name":"Azerbaijan",
-			"Score":1
-		}
-	},
-	{
-		"Home":{
-			"Name":"Slovakia",
-			"Score":2
-		},
-		"Away":{
-			"Name":"Hungary",
-			"Score":0
-		}
-	},
-	{
-		"Home":{
-			"Name":"Wales",
-			"Score":1
-		},
-		"Away":{
-			"Name":"Slovakia",
-			"Score":0
-		}
-	},
-	{
-		"Home":{
-			"Name":"Hungary",
-			"Score":2
-		},
-		"Away":{
-			"Name":"Croatia",
-			"Score":1
-		}
-	},
-	{
-		"Home":{
-			"Name":"Croatia",
-			"Score":2
-		},
-		"Away":{
-			"Name":"Wales",
-			"Score":1
-		}
-	},
-	{
-		"Home":{
-			"Name":"Azerbaijan",
-			"Score":1
-		},
-		"Away":{
-			"Name":"Hungary",
+[
+    {
+        "Home": {
+            "Name": "Belgium",
 			"Score":3
-		}
-	},
-	{
-		"Home":{
-			"Name":"Azerbaijan",
+        },
+        "Away": {
+            "Name": "Wales",
 			"Score":1
-		},
-		"Away":{
-			"Name":"Slovakia",
-			"Score":5
-		}
-	},
-	{
-		"Home":{
-			"Name":"Hungary",
-			"Score":1
-		},
-		"Away":{
-			"Name":"Wales",
-			"Score":0
-		}
-	},
-	{
-		"Home":{
-			"Name":"Slovakia",
-			"Score":0
-		},
-		"Away":{
-			"Name":"Croatia",
+        }
+    },
+    {
+        "Home": {
+            "Name": "Estonia",
+			"Score":2
+        },
+        "Away": {
+            "Name": "Czech Republic",
+			"Score":6
+        }
+    },
+    {
+        "Home": {
+            "Name": "Belarus",
 			"Score":4
-		}
-	},
-	{
-		"Home":{
-			"Name":"Wales",
+        },
+        "Away": {
+            "Name": "Estonia",
 			"Score":2
-		},
-		"Away":{
-			"Name":"Azerbaijan",
+        }
+    },
+    {
+        "Home": {
+            "Name": "Czech Republic",
 			"Score":1
-		}
-	},
-	{
-		"Home":{
-			"Name":"Azerbaijan",
+        },
+        "Away": {
+            "Name": "Belgium",
 			"Score":1
-		},
-		"Away":{
-			"Name":"Croatia",
-			"Score":1
-		}
-	},
-	{
-		"Home":{
-			"Name":"Hungary",
-			"Score":1
-		},
-		"Away":{
-			"Name":"Slovakia",
-			"Score":2
-		}
-	},
-	{
-		"Home":{
-			"Name":"Croatia",
-			"Score":3
-		},
-		"Away":{
-			"Name":"Hungary",
+        }
+    },
+    {
+        "Home": {
+            "Name": "Belgium",
+			"Score":8
+        },
+        "Away": {
+            "Name": "Belarus",
 			"Score":0
-		}
-	},
-	{
-		"Home":{
-			"Name":"Slovakia",
+        }
+    },
+    {
+        "Home": {
+            "Name": "Wales",
 			"Score":1
-		},
-		"Away":{
-			"Name":"Wales",
-			"Score":1
-		}
-	},
-	{
-		"Home":{
-			"Name":"Hungary",
-			"Score":1
-		},
-		"Away":{
-			"Name":"Azerbaijan",
+        },
+        "Away": {
+            "Name": "Czech Republic",
 			"Score":0
-		}
-	},
-	{
-		"Home":{
-			"Name":"Wales",
-			"Score":1
-		},
-		"Away":{
-			"Name":"Croatia",
-			"Score":1
-		}
-	},
-	{
-		"Home":{
-			"Name":"Azerbaijan"
-		},
-		"Away":{
-			"Name":"Wales"
-		}
-	},
-	{
-		"Home":{
-			"Name":"Croatia"
-		},
-		"Away":{
-			"Name":"Slovakia"
-		}
-	},
-	{
-		"Home":{
-			"Name":"Slovakia"
-		},
-		"Away":{
-			"Name":"Azerbaijan"
-		}
-	},
-	{
-		"Home":{
-			"Name":"Wales"
-		},
-		"Away":{
-			"Name":"Hungary"
-		}
-	}
+        }
+    },
+    {
+        "Home": {
+            "Name": "Czech Republic"
+        },
+        "Away": {
+            "Name": "Belarus"
+        }
+    },
+    {
+        "Home": {
+            "Name": "Estonia"
+        },
+        "Away": {
+            "Name": "Belgium"
+        }
+    },
+    {
+        "Home": {
+            "Name": "Belarus"
+        },
+        "Away": {
+            "Name": "Wales"
+        }
+    },
+    {
+        "Home": {
+            "Name": "Belgium"
+        },
+        "Away": {
+            "Name": "Czech Republic"
+        }
+    },
+    {
+        "Home": {
+            "Name": "Belarus"
+        },
+        "Away": {
+            "Name": "Belgium"
+        }
+    },
+    {
+        "Home": {
+            "Name": "Wales"
+        },
+        "Away": {
+            "Name": "Estonia"
+        }
+    },
+    {
+        "Home": {
+            "Name": "Czech Republic"
+        },
+        "Away": {
+            "Name": "Wales"
+        }
+    },
+    {
+        "Home": {
+            "Name": "Estonia"
+        },
+        "Away": {
+            "Name": "Belarus"
+        }
+    },
+    {
+        "Home": {
+            "Name": "Belarus"
+        },
+        "Away": {
+            "Name": "Czech Republic"
+        }
+    },
+    {
+        "Home": {
+            "Name": "Estonia"
+        },
+        "Away": {
+            "Name": "Wales"
+        }
+    },
+    {
+        "Home": {
+            "Name": "Belgium"
+        },
+        "Away": {
+            "Name": "Estonia"
+        }
+    },
+    {
+        "Home": {
+            "Name": "Wales"
+        },
+        "Away": {
+            "Name": "Belarus"
+        }
+    },
+    {
+        "Home": {
+            "Name": "Czech Republic"
+        },
+        "Away": {
+            "Name": "Estonia"
+        }
+    },
+    {
+        "Home": {
+            "Name": "Wales"
+        },
+        "Away": {
+            "Name": "Belgium"
+        }
+    }
 ]

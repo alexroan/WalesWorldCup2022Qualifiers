@@ -13,11 +13,11 @@ $(window).ready(function(){
 
 var results = null;
 var teams = {
-	"cro":"Croatia",
+	"blg":"Belgium",
 	"wal":"Wales",
-	"slo":"Slovakia",
-	"hun":"Hungary",
-	"aze":"Azerbaijan"
+	"blr":"Belarus",
+	"est":"Estonia",
+	"cze":"Czech Republic"
 };
 
 function LoadResults(construct){
@@ -70,11 +70,11 @@ function ConstructFixtures(){
 
 function ConstructTable(){	
 	var pointsTable = {
-		"Croatia": {P:0,W:0,D:0,L:0,GF:0,GA:0,GD:0,Pts:0},
+		"Belgium": {P:0,W:0,D:0,L:0,GF:0,GA:0,GD:0,Pts:0},
 		"Wales": {P:0,W:0,D:0,L:0,GF:0,GA:0,GD:0,Pts:0},
-		"Slovakia": {P:0,W:0,D:0,L:0,GF:0,GA:0,GD:0,Pts:0},
-		"Hungary": {P:0,W:0,D:0,L:0,GF:0,GA:0,GD:0,Pts:0},
-		"Azerbaijan": {P:0,W:0,D:0,L:0,GF:0,GA:0,GD:0,Pts:0}
+		"Belarus": {P:0,W:0,D:0,L:0,GF:0,GA:0,GD:0,Pts:0},
+		"Estonia": {P:0,W:0,D:0,L:0,GF:0,GA:0,GD:0,Pts:0},
+		"Czech Republic": {P:0,W:0,D:0,L:0,GF:0,GA:0,GD:0,Pts:0}
 	};
 
 	for (var i = 0; i < results.length; i++) {
