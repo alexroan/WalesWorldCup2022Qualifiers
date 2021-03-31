@@ -13,11 +13,11 @@ $(window).ready(function(){
 
 var results = null;
 var teams = {
-	"blg":"Belgium",
-	"wal":"Wales",
-	"blr":"Belarus",
-	"est":"Estonia",
-	"cze":"Czech Republic"
+	"belg":"Belgium",
+	"wale":"Wales",
+	"bela":"Belarus",
+	"esto":"Estonia",
+	"czec":"Czech Republic"
 };
 
 function LoadResults(construct){
@@ -120,8 +120,8 @@ function ConstructTable(){
 
 function PrintFixture(home, away){
 	var $form = $("#predictions-form");
-	home3 = home.Name.toLowerCase().substring(0,3);
-	away3 = away.Name.toLowerCase().substring(0,3);
+	home3 = home.Name.toLowerCase().substring(0,4);
+	away3 = away.Name.toLowerCase().substring(0,4);
 
 	homeCode = home3 + "-" + away3 + "-" + home3;
 	awayCode = home3 + "-" + away3 + "-" + away3;
@@ -192,7 +192,6 @@ function appendHeadToHead(tableArray){
 			});
 		}
 	}
-	console.log(tableArray);
 	return tableArray;
 }
 
